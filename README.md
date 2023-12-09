@@ -1,7 +1,9 @@
 # @uniswap/merkle-distributor
 
-[![Tests](https://github.com/Uniswap/merkle-distributor/workflows/Tests/badge.svg)](https://github.com/Uniswap/merkle-distributor/actions?query=workflow%3ATests)
-[![Lint](https://github.com/Uniswap/merkle-distributor/workflows/Lint/badge.svg)](https://github.com/Uniswap/merkle-distributor/actions?query=workflow%3ALint)
+# 📦 A modified merkle-distributor from uniswap that can be used to generate merkle distributor in projects.
+
+### to those who have used the original package one change to take note of:
+- The `OldFormat` type now accepts a hex string only for the amount same as the new format (check `old_format_example.json`), this is to ensure accuracy with computation especially when dealing with an amount with decimals places in the project side. 
 
 # Local Development
 
