@@ -1,6 +1,6 @@
 {
   "name": "@medardm/merkle-distributor",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "📦 A modified merkle-distributor from uniswap that can be used to generate merkle distributor info in projects",
   "keywords": [
     "uniswap",
