@@ -4,4 +4,5 @@ wrangler.toml
 artifacts/
 .idea
 cache/
+dist/
 yarn-error.log
